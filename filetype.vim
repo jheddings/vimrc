@@ -16,3 +16,7 @@ autocmd! BufRead,BufNewFile jamrules set filetype=jam
 
 autocmd! BufRead,BufNewFile *.ftl set filetype=ftl
 autocmd! BufRead,BufNewFile *.make set filetype=make
+
+autocmd BufNewFile,BufRead *.json set filetype=json
+autocmd BufNewFile,BufRead *.jsonp set filetype=json
+
