@@ -1,4 +1,4 @@
-" C++ buffer options
+" JavaScript buffer options
 
 if exists("b:jah_ftplugin")
   finish
@@ -19,12 +19,3 @@ vmap <buffer> <silent> \C :s+^//++<CR>
 vmap <buffer> <silent> \c <ESC>:'<,'>s+^+//+<CR>
 vmap <buffer> <silent> \C <ESC>:'<,'>s+^//++<CR>
 
-" tab completion mapping
-if g:jah_SmartTabCompletion
-  inoremap <buffer> <Tab>   <C-R>=KeywordTabWrapper("\\\<C-N\>")<CR>
-  inoremap <buffer> <S-Tab> <C-R>=KeywordTabWrapper("\\\<C-P\>")<CR>
-endif
-
-syn match Brackets /[{}[\]()<>]/
-"syn match Function /[a-zA-Z][a-zA-Z0-9_] *(/
-syn match Relation /==|!=|<=|>=/
