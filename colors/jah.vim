@@ -34,7 +34,7 @@ hi String ctermfg=LightBlue guifg=#A0A0FF
 hi Character ctermfg=LightCyan guifg=#A0A0FF
 hi Comment ctermfg=DarkGreen guifg=#67A366
 hi PreProc ctermfg=Cyan guifg=LightBlue
-hi Statement ctermfg=Yellow cterm=NONE guifg=DarkYellow gui=NONE
+hi Statement ctermfg=Yellow cterm=NONE guifg=Yellow gui=NONE
 hi Todo ctermfg=Black ctermbg=Yellow guifg=Black guibg=Yellow gui=NONE
 hi Identifier ctermfg=DarkCyan cterm=NONE guifg=#00A7A7 gui=NONE
 hi Type ctermfg=DarkCyan guifg=#00A7A7 gui=NONE
